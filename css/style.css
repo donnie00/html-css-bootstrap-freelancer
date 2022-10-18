@@ -45,3 +45,14 @@ textarea.my-text-area {
 .my-form-element {
     margin: .2rem 0;
 }
+
+.my-btn-success {
+    background-color: var(--bs-success);
+    color: white;
+}
+
+.my-btn-success:hover {
+    background-color: white;
+    color: var(--bs-dark);
+    border:1px solid var(--bs-dark);
+}

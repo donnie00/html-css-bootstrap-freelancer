@@ -1,0 +1,47 @@
+:root {
+    --bs-success-rgb: 23, 188, 155;
+    --bs-success: #17bc9b;
+    --bs-primary-rgb: 43, 62, 80;
+}
+
+.star {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star::after,
+.star::before {
+    content: '';
+    position: relative;
+    margin: 10px;
+    height: 5px;
+    width: 50%;
+    background-color: inherit;
+    border-radius: 1rem;
+}
+
+.star-spacer-white > .star::after,
+.star-spacer-white > .star::before {
+    background-color: white;
+}
+
+.star-spacer-black > .star::after,
+.star-spacer-black > .star::before {
+    background-color: black;
+}
+
+[class^='star-spacer'] {
+    margin: auto;
+    max-width: 50%;
+    padding: 1rem 0;
+}
+
+textarea.my-text-area {
+    min-height: 150px;
+}
+
+.my-form-element {
+    margin: .2rem 0;
+}

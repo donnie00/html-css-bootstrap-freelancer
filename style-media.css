@@ -1,9 +1,0 @@
-@media screen and (min-width: 573px) {
-    .burger-btn {
-        display: none;
-    }
-
-    .nav-links {
-        display: block;
-    }
-}
